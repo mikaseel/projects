@@ -8,7 +8,7 @@
 
 📫 How to reach me: Messsage me on [LinkedIn](https://www.linkedin.com/in/leesapark/).
 
-⚡ Fun fact: Few hobbies of mine are snowboarding, paddleboarding, biking, yoga, and all things crytals.
+⚡ Fun fact: When I'm not immersed in data, you can find me snowboarding, paddleboarding, biking, practicing yoga, and exploring all things crytals!
 
 <!---
 mikaseel/mikaseel is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
