@@ -1,7 +1,7 @@
 This contains independent projects completed during and after completion of a Masters of Science in Data Science at Johns Hopkins Whiting School of Engineering.
 
-## Sleep Disorder Prediction
+## [Sleep Disorder Prediction](https://github.com/mikaseel/projects/blob/main/portfolio/Sleep%20Disorder%20Prediction.ipynb)
 Project description: Developed machine learning prediction pipelines using supervised learning models—Support Vector Machine (SVM), Extreme Gradient Boost (XGBoost), and Random Forest classifiers—with GridSearchCV for optimized hyperparameter tuning. Evaluated model performance across multiple train/validation/test splits, using various metrics (e.g., accuracy, precision, recall) to select the best-performing model. Analyzed the Kaggle's Sleep Health and Lifestyle dataset for key patterns and ensured robust generalization through cross-validation.
 
-## Modeling Fuel Efficiency: A Comparative Analysis of Distributional and Linear Regression Approaches on the Auto-MPG Dataset
+## [Modeling Fuel Efficiency: A Comparative Analysis of Distributional and Linear Regression Approaches on the Auto-MPG Dataset](https://github.com/mikaseel/projects/blob/main/portfolio/ModelingFuelEfficiency.ipynb)
 Project description: Explored the Auto-MPG dataset to model and predict fuel efficiency (mpg) of various automobiles using two key approaches: a Gaussian distributional model and a linear regression model. The analysis follows a structured workflow, including ETL, exploratory data analysis (EDA), and data transformations to enhance model performance and interpretability. The analysis provides valuable insights into the factors influencing fuel efficiency and highlights the strengths and limitations of different modeling techniques.
