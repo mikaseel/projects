@@ -1,5 +1,8 @@
 This contains independent projects completed during and after completion of a Masters of Science in Data Science at Johns Hopkins Whiting School of Engineering.
 
+## [Rice Classification Using CNN with PyTorch and LIME](https://github.com/mikaseel/projects/blob/main/portfolio/RiceCNNPyTorchLIME.ipynb)
+Project description: Convolutional Neutral Network (CNN) was created using PyTorch to classify five different varieties of rice. The project focused on achieving high accuracy and providing interpretability for the model's predictions by using LIME (Local Interpretable Model-Agnostic Explanations) to visualize and explain the model’s decision-making process.
+
 ## [Sleep Disorder Prediction](https://github.com/mikaseel/projects/blob/main/portfolio/Sleep%20Disorder%20Prediction.ipynb)
 Project description: Developed machine learning prediction pipelines using supervised learning models—Support Vector Machine (SVM), Extreme Gradient Boost (XGBoost), and Random Forest classifiers—with GridSearchCV for optimized hyperparameter tuning. Evaluated model performance across multiple train/validation/test splits, using various metrics (e.g., accuracy, precision, recall) to select the best-performing model. Analyzed the Kaggle's Sleep Health and Lifestyle dataset for key patterns and ensured robust generalization through cross-validation.
 
