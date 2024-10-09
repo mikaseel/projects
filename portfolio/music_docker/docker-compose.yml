@@ -1,0 +1,35 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:16.3
+    environment:
+      POSTGRES_USER: lexi
+      POSTGRES_PASSWORD: lexi123
+      POSTGRES_DB: lexi
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./shared:/home/lexi
+
+  airflow-jupyter:
+    build: .
+    ports:
+      - "8888:8888"
+      - "8080:8080"
+    volumes:
+      - ./shared:/home/lexi
+    depends_on:
+      - postgres
+    environment:
+      - AIRFLOW_HOME=/home/lexi/airflow
+      - AIRFLOW__CORE__DAGS_FOLDER=/home/lexi/airflow/dags
+    command: >
+      bash -c "
+      mkdir -p /home/lexi/airflow/dags &&
+      airflow db init &&
+      airflow users create -r Admin -u admin -p admin -e admin@example.com -f Admin -l User &&
+      jupyter lab --ip=0.0.0.0 --no-browser --allow-root &&
+      chmod 0600 /home/lexi/.local/share/jupyter/runtime/jupyter_cookie_secret"
+
+volumes:
+  mongodb_data:
